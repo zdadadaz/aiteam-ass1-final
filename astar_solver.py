@@ -67,15 +67,15 @@ class astar(BFS_sokoban):
             game_map.update_simpleDealock_status()  
             # game_map.render_deadlock()
             # game_map.render()
-            if (time.time()- start > len(game_map.get_target())*30):
-                printout = []
-                printout.append(100000)
-                printout.append(100000)
-                printout.append(100000)
-                printout.append(100000)
-                printout.append(100000)
-                print('Run out of time')
-                return printout
+            # if (time.time()- start > len(game_map.get_target())*30):
+            #     printout = []
+            #     printout.append(100000)
+            #     printout.append(100000)
+            #     printout.append(100000)
+            #     printout.append(100000)
+            #     printout.append(100000)
+            #     print('Run out of time')
+            #     return printout
 
 #            check success or not
             if game_map.is_finished():
