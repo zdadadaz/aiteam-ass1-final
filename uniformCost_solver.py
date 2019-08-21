@@ -1,5 +1,5 @@
 import sys
-from sokoban_map import SokobanMap
+from sokoban_map_modified import SokobanMap
 from astar_solver import astar 
 from queue import PriorityQueue
 import time

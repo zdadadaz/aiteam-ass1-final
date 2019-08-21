@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import sys
-from sokoban_map import SokobanMap
+from sokoban_map_modified import SokobanMap
 from bfs_sokoban import BFS_sokoban 
 from util_datastruct import Stack
 import time
